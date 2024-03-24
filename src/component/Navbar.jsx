@@ -50,27 +50,27 @@ const Navbar = () => {
             </div>
             {activeMenu && (
                 <Menu theme='dark'>
-                    <Menu.Item icon={<HomeOutlined />} onClick={handleRedirect}  >
+                    <Menu.Item icon={<HomeOutlined />}   >
                         <Link to='/'>Home</Link>
                     </Menu.Item>
 
-                    <Menu.Item icon={<FundOutlined />} onClick={handleRedirect}  >
+                    <Menu.Item icon={<FundOutlined />}   >
                         <Link to='/cryptocurrencies'>CryptoCurrencies</Link>
                     </Menu.Item>
 
-                    <Menu.Item icon={<BulbOutlined />} onClick={handleRedirect}  >
+                    <Menu.Item icon={<BulbOutlined />}   >
                         <Link to='/news'>News</Link>
                     </Menu.Item>
 
-                    <Menu.Item icon={<UserOutlined />} onClick={handleRedirect}  >
+                    <Menu.Item icon={<UserOutlined />}   >
                         <Link to='/news'>Profile</Link>
                     </Menu.Item>
 
-                    <Menu.Item icon={<LoginOutlined />} onClick={handleRedirect}  >
+                    <Menu.Item icon={<LoginOutlined />}   >
                         <Link to='/news'>Login/Signup</Link>
                     </Menu.Item>
 
-                    <Menu.Item icon={<LogoutOutlined />} onClick={handleRedirect}  >
+                    <Menu.Item icon={<LogoutOutlined />}   >
                         <Link to='/'>Logout</Link>
                     </Menu.Item>
 
